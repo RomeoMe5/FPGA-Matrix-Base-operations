@@ -1,0 +1,8 @@
+module matrix_op(input first, input second,input op, output result);
+
+	if (op == 1)
+		assign result = first + second;
+	else
+		assign result = first - second;
+
+endmodule
