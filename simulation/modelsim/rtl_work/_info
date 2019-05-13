@@ -1,0 +1,108 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/altera 17.1 lite/homework/simulation/modelsim
+vbitsumm
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1557686362
+!i10b 1
+!s100 _33HVN9;5Dl91FI:7_;WK2
+I2FIRBZOBVJBj8R0`RZfZI1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 matrix_2x2_sv_unit
+S1
+R0
+Z5 w1557686081
+Z6 8F:/altera 17.1 lite/homework/matrix_2x2.sv
+Z7 FF:/altera 17.1 lite/homework/matrix_2x2.sv
+L0 44
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1557686362.000000
+Z10 !s107 F:/altera 17.1 lite/homework/matrix_2x2.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+F:/altera 17.1 lite/homework|F:/altera 17.1 lite/homework/matrix_2x2.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+F:/altera 17.1 lite/homework}
+Z14 tCvgOpt 0
+vHomework_vlg_vec_tst
+!s110 1557686416
+!i10b 1
+!s100 U2PfGF>0[Y?cS@E]CPJ7A2
+IQV6ITL1nUaQ?39?a9Y1jU0
+R3
+R0
+w1557686331
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R8
+r1
+!s85 0
+31
+!s108 1557686416.000000
+!s107 Waveform.vwf.vt|
+!s90 -reportprogress|300|-work|work|Waveform.vwf.vt|
+!i113 1
+o-work work
+R14
+n@homework_vlg_vec_tst
+vmatrix_2x2
+R1
+R2
+!i10b 1
+!s100 hc[`XIGmIk;fK0cLa0B]C2
+IkfYo6jz8aR4Ro?3NiTiYz1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vSummator
+R1
+R2
+!i10b 1
+!s100 7AF[1>5lfllEMWMQoR0XF3
+InD]Kb3c7<MWG@PhD;;QUA0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 25
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@summator

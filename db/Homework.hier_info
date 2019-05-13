@@ -1,0 +1,87 @@
+|Homework
+result[0] <= matrix_op:inst.result[0]
+result[1] <= matrix_op:inst.result[1]
+result[2] <= matrix_op:inst.result[2]
+result[3] <= matrix_op:inst.result[3]
+result[4] <= matrix_op:inst.result[4]
+result[5] <= matrix_op:inst.result[5]
+result[6] <= matrix_op:inst.result[6]
+result[7] <= matrix_op:inst.result[7]
+
+
+|Homework|matrix_op:inst
+first[0] => first[0].IN1
+first[1] => first[1].IN1
+first[2] => first[2].IN1
+first[3] => first[3].IN1
+first[4] => first[4].IN1
+first[5] => first[5].IN1
+first[6] => first[6].IN1
+first[7] => first[7].IN1
+second[0] => second[0].IN1
+second[1] => second[1].IN1
+second[2] => second[2].IN1
+second[3] => second[3].IN1
+second[4] => second[4].IN1
+second[5] => second[5].IN1
+second[6] => second[6].IN1
+second[7] => second[7].IN1
+result[0] <= summ:summ1.port2
+result[1] <= summ:summ1.port2
+result[2] <= summ:summ1.port2
+result[3] <= summ:summ1.port2
+result[4] <= summ:summ1.port2
+result[5] <= summ:summ1.port2
+result[6] <= summ:summ1.port2
+result[7] <= summ:summ1.port2
+
+
+|Homework|matrix_op:inst|summ:summ1
+Ain[0] => Add0.IN8
+Ain[1] => Add0.IN7
+Ain[2] => Add0.IN6
+Ain[3] => Add0.IN5
+Ain[4] => Add0.IN4
+Ain[5] => Add0.IN3
+Ain[6] => Add0.IN2
+Ain[7] => Add0.IN1
+Bin[0] => Add0.IN16
+Bin[1] => Add0.IN15
+Bin[2] => Add0.IN14
+Bin[3] => Add0.IN13
+Bin[4] => Add0.IN12
+Bin[5] => Add0.IN11
+Bin[6] => Add0.IN10
+Bin[7] => Add0.IN9
+Sout[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Sout[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Homework|LPM_CONSTANT:inst7
+result[0] <= <VCC>
+result[1] <= <GND>
+result[2] <= <VCC>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <VCC>
+result[6] <= <VCC>
+result[7] <= <GND>
+
+
+|Homework|LPM_CONSTANT:inst8
+result[0] <= <VCC>
+result[1] <= <GND>
+result[2] <= <VCC>
+result[3] <= <GND>
+result[4] <= <GND>
+result[5] <= <VCC>
+result[6] <= <VCC>
+result[7] <= <GND>
+
+
